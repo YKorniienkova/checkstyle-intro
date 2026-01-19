@@ -4,13 +4,11 @@ import core.basesyntax.model.Cat;
 import core.basesyntax.model.Dog;
 import java.time.LocalDate;
 
-public class HelloWorld
-{
+public class HelloWorld {
     private String name;
     private int variable;
     private int age;
     private int size;
-
 
     public static void main(String[] args) {
         Dog dog = new Dog();
